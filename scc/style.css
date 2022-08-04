@@ -342,4 +342,53 @@ body {
   max-width: 1298px;
   margin: auto;
   position: relative;
+}
+
+p {
+  margin: 0;
+}
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 0 5px 0;
+}
+.navbar-contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.navbar-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo__image {
+  width: 100px;
+  height: 70px;
+  margin-right: 10px;
+}
+.navbar-logo__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  max-width: 175px;
+}
+.navbar-backcall {
+  display: flex;
+  align-items: center;
+}
+.navbar-backcall__avatar {
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
+.navbar-backcall__link {
+  color: #0172CE;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
 }/*# sourceMappingURL=style.css.map */
