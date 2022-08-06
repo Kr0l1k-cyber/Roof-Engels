@@ -359,6 +359,14 @@ p {
   margin: 0;
 }
 
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
 .navbar-top {
   display: flex;
   align-items: center;
@@ -499,4 +507,11 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+.services {
+  padding: 100px 0;
+}
+.services-hat {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
