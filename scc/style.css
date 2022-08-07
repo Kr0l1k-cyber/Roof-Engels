@@ -514,4 +514,47 @@ h2 {
 }
 .services-hat {
   text-align: center;
+}
+.services-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.card {
+  width: 417px;
+  margin-bottom: 24px;
+  margin-right: 21px;
+  background-color: grey;
+  border-radius: 15px;
+  padding-top: 25px;
+  padding-bottom: 48px;
+  padding-left: 25px;
+}
+.card:nth-child(3n) {
+  margin-right: 0;
+}
+.card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.card-menu {
+  padding-left: 25px;
+}
+.card-menu__list:last-child {
+  list-style-type: none;
+}
+.card-menu__list {
+  color: #0172CE;
+}
+.card-menu__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
