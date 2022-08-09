@@ -653,4 +653,13 @@ h2 {
   font-size: 18px;
   line-height: 21px;
   color: #8FDA0A;
+}
+
+.price {
+  background-image: url(../image/PriceBG.jpg);
+}
+.price-container {
+  padding-top: 110px;
+  padding-bottom: 181px;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
