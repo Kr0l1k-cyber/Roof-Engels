@@ -816,4 +816,18 @@ h2 {
   top: 50%;
   right: 65px;
   transform: translateY(-50%);
+}
+
+.footer {
+  background-color: #ECEFF0;
+}
+.footer-top {
+  padding-top: 63px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #838383;
+}
+
+footer-bottom {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
