@@ -1,6 +1,112 @@
 .footer
   background-color: $footerBG
+  border-bottom: 1px solid #838383
+  &-logo
+    display: flex
+    flex-direction: column
+    align-items: center
+    flex-wrap: wrap
+    &__text
+      font-style: normal
+      font-weight: 400
+      font-size: 13px
+      line-height: 18px
+      text-align: center
+      &--bold
+        font-style: normal
+        font-weight: 700
+        font-size: 13px
+        line-height: 18px
+  &-title
+    font-style: normal
+    font-weight: 700
+    font-size: 16px
+    line-height: 18px
+    margin-bottom: 30px
+  &-menu
+    padding: 0
+    list-style-type: none
+    &__list
+      margin-bottom: 30px
+      position: relative
+    &__item
+      font-style: normal
+      font-weight: 400
+      font-size: 16px
+      line-height: 18px
+      text-decoration: none
+      color: #000000
+      &--padding
+        padding-left: 28px
+    &__image
+      position: absolute
+      // top: 50%
+      transform: translateY(-15%)
+      left: -4px
+      margin-right: 8px
+      // иконки с галачками
   &-top
     padding-top: 63px
     padding-bottom: 60px
-    border-bottom: 1px solid #838383
+    display: flex
+    justify-content: space-between
+  &-feedback
+    display: flex
+    flex-direction: column
+    align-items: start
+    flex-wrap: wrap
+    &__icon
+      width: 25px
+      height: 25px
+    &__messagers
+      margin-left: 5px
+      // иконки мессанджеров
+  &-nav
+    &__icon
+      width: 45px
+      height: 45px
+      margin-right: 8px
+      // иконка карты
+  &-text
+    font-style: normal
+    font-weight: 400
+    font-size: 12px
+    line-height: 14px
+    color: #838383
+  &-call
+    display: flex
+    align-items: center
+    margin-right: 40px
+    flex-wrap: wrap
+    width: 188px
+    margin-bottom: 20px
+  &-phone
+    &__number
+      font-style: normal
+      font-weight: 700
+      font-size: 18px
+      line-height: 22px
+    &__img
+      margin-right: 4px
+      // обратный звонок
+  &-messangers
+    display: flex
+    margin-bottom: 22px
+    // мессанджеры
+  &-maps
+    display: flex
+    flex-wrap: wrap
+    justify-content: start
+    align-items: center
+    width: 239px
+    margin-bottom: 22px
+    &__link
+      font-style: normal
+      font-weight: 700
+      font-size: 14px
+      line-height: 18px
+      // контейнер карт
+  &-social
+    display: flex
+    &__text
+      margin-right: 8px

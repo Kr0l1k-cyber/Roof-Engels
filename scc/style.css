@@ -820,11 +820,130 @@ h2 {
 
 .footer {
   background-color: #ECEFF0;
+  border-bottom: 1px solid #838383;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-logo__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+}
+.footer-logo__text--bold {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+}
+.footer-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+.footer-menu {
+  padding: 0;
+  list-style-type: none;
+}
+.footer-menu__list {
+  margin-bottom: 30px;
+  position: relative;
+}
+.footer-menu__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+.footer-menu__item--padding {
+  padding-left: 28px;
+}
+.footer-menu__image {
+  position: absolute;
+  transform: translateY(-15%);
+  left: -4px;
+  margin-right: 8px;
 }
 .footer-top {
   padding-top: 63px;
   padding-bottom: 60px;
-  border-bottom: 1px solid #838383;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.footer-feedback__icon {
+  width: 25px;
+  height: 25px;
+}
+.footer-feedback__messagers {
+  margin-left: 5px;
+}
+.footer-nav__icon {
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
+.footer-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #838383;
+}
+.footer-call {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  flex-wrap: wrap;
+  width: 188px;
+  margin-bottom: 20px;
+}
+.footer-phone__number {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.footer-phone__img {
+  margin-right: 4px;
+}
+.footer-messangers {
+  display: flex;
+  margin-bottom: 22px;
+}
+.footer-maps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  width: 239px;
+  margin-bottom: 22px;
+}
+.footer-maps__link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+.footer-social {
+  display: flex;
+}
+.footer-social__text {
+  margin-right: 8px;
 }
 
 footer-bottom {
