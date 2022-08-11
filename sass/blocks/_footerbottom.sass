@@ -1,4 +1,26 @@
-footer
+.footer
   &-bottom
     padding-top: 15px
     padding-bottom: 15px
+    display: flex
+    justify-content: space-between
+    &__wrapper
+      display: flex
+      flex-direction: column
+      // align-items: start
+      flex-wrap: wrap
+      &--left
+        align-items: start
+      &--midle
+        align-items: center
+      &--right
+        align-items: flex-end
+    &__text
+      font-style: normal
+      font-weight: 400
+      font-size: 16px
+      line-height: 24px
+      color: #838383
+    &__link
+      text-decoration: none
+      color: inherit

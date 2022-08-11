@@ -820,6 +820,8 @@ h2 {
 
 .footer {
   background-color: #ECEFF0;
+}
+.footer-top {
   border-bottom: 1px solid #838383;
 }
 .footer-logo {
@@ -946,7 +948,34 @@ h2 {
   margin-right: 8px;
 }
 
-footer-bottom {
+.footer-bottom {
   padding-top: 15px;
   padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom__wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footer-bottom__wrapper--left {
+  align-items: start;
+}
+.footer-bottom__wrapper--midle {
+  align-items: center;
+}
+.footer-bottom__wrapper--right {
+  align-items: flex-end;
+}
+.footer-bottom__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #838383;
+}
+.footer-bottom__link {
+  text-decoration: none;
+  color: inherit;
 }/*# sourceMappingURL=style.css.map */
