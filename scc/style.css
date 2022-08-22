@@ -1169,6 +1169,9 @@ h2 {
   }
 }
 @media (max-width: 360px) {
+  .header-image {
+    background-image: url(../image/BackgroundMedia.jpg);
+  }
   .container {
     width: 95%;
   }
@@ -1238,6 +1241,9 @@ h2 {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
+  }
+  .price {
+    background-image: url(../image/PriceBackgroundImage.png);
   }
   .price-container {
     padding-top: 30px;
