@@ -419,6 +419,9 @@ h2 {
 .navbar-messagers {
   margin-right: 40px;
 }
+.navbar-messagers--desktop_hiden {
+  display: none;
+}
 .navbar-text__call {
   font-style: normal;
   font-weight: 400;
@@ -441,6 +444,9 @@ h2 {
   justify-content: center;
   width: 196px;
   flex-wrap: wrap;
+}
+.navbar-call--desktop_hiden {
+  display: none;
 }
 .navbar-phone__number {
   font-style: normal;
@@ -1082,14 +1088,44 @@ h2 {
     max-width: 700px;
     width: 92%;
   }
+  .navbar-call--mobile_visible, .navbar-messagers--mobile_visible {
+    display: flex;
+  }
+  .navbar-top--mobile_fixed {
+    position: fixed;
+    top: 0;
+    left: 4%;
+    right: 4%;
+    z-index: 10;
+  }
   .navbar-contacts {
     display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 81px;
   }
   .navbar-menu {
     display: none;
+    position: fixed;
+    left: 4%;
+    right: 4%;
+    bottom: 0;
+    top: 81px;
+    z-index: 9;
+  }
+  .navbar-menu--visible {
+    display: flex;
+    flex-direction: column;
   }
   .navbar-menu__mobile {
     display: flex;
+  }
+  .navbar-menu__item {
+    display: inline-flex;
+    border-bottom: 1px solid;
+    border-color: #000;
   }
   .navbar-button__mobile {
     border: none;

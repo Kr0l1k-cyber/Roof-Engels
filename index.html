@@ -11,7 +11,7 @@
   <div class="header-image">
   <header class="header">
     <div class="container">
-      <div class="navbar-top">
+      <div class="navbar-top navbar-top--mobile_fixed">
         <div class="navbar-logo logo">
           <a href="#"><img src="image/logo1.png" alt="Logo" class="navbar-logo__image"></a>
           <div class="navbar-logo__description">С 2010 года комплектуем кровельные, фасадные
@@ -23,7 +23,7 @@
               <img src="image/AvatarWorker.png" alt="avatar" class="navbar-backcall__avatar">
               <a href="#" class="navbar-backcall__link">Заказать звонок <br><span class="navbar-backcall__uppercase">бесплатно</span></a>
             </div>
-            <div class="navbar-messagers">
+            <div class="navbar-messagers navbar-messagers--mobile_hiden">
               <span class="navbar-text">Напишите нам, мы онлайн</span>
               <div class="navbar-feedback">
                 <a href="#" class="navbar-feedback__icon watssapp"><img src="image/watssapp.svg" alt="messagers: watssapp"></a>
@@ -32,7 +32,7 @@
               </div>
             </div>
             <div class="navbar-call">
-              <span class="navbar-text navbar-text__call">Работаем пн-пт с 09:00 до 18:00</span>
+              <span class="navbar-text navbar-text__call navbar-text--mobile_hiden">Работаем пн-пт с 09:00 до 18:00</span>
               <a href="#" class="navbar-phone__img"><img src="image/PhoneCall.svg" alt="phone number" class="phone"></a>
               <div class="navbar-phone__number phone-number">+7 (8452) 76-76-51</div>
             </div>          
@@ -42,7 +42,7 @@
           <button class="navbar-button__mobile">
             <img src="image/MobilePhone.svg" alt="button phone" class="navbar-button__mobile--image">
           </button>
-          <button class="navbar-button__mobile">
+          <button class="navbar-button__mobile mobile-menu">
             <img src="image/MobileMenu.svg" alt="button mobile menu" class="navbar-button__mobile--image">
           </button>
         </div>
@@ -58,6 +58,22 @@
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">оплата</a></li>
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">о нас</a></li>
           <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">контакты</a></li>
+          <li class="navbar-menu__item navbar-call--desktop_hiden navbar-call--mobile_visible">
+            <div class="navbar-call">
+            <span class="navbar-text navbar-text__call">Работаем пн-пт с 09:00 до 18:00</span>
+            <a href="#" class="navbar-phone__img"><img src="image/PhoneCall.svg" alt="phone number" class="phone"></a>
+            <div class="navbar-phone__number phone-number">+7 (8452) 76-76-51</div>
+          </div>
+        </li>
+          <li class="navbar-menu__item navbar-messagers--desktop_hiden navbar-messagers--mobile_visible">
+            <div class="navbar-messagers">
+              <span class="navbar-text">Напишите нам, мы онлайн</span>
+              <div class="navbar-feedback">
+                <a href="#" class="navbar-feedback__icon watssapp"><img src="image/watssapp.svg" alt="messagers: watssapp"></a>
+                <a href="#" class="navbar-feedback__icon viber"><img src="image/viber.svg" alt="messagers: viber"></a>
+                <a href="#" class="navbar-feedback__icon telegramm"><img src="image/telegram.svg" alt="messagers: telegramm"></a>
+              </div>
+          </li>
         </ul>
       </div>
       <!-- Navbr-bottom -->
@@ -335,6 +351,6 @@
   <!-- /.footer-bottom -->
 </footer>
 <!-- /.footer -->
-  
+<script src="js/main.js"></script>
 </body>
 </html>

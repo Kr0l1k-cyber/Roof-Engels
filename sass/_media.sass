@@ -80,12 +80,42 @@
     max-width: 700px
     width: 92%
   .navbar
+    &-call, &-messagers
+      &--mobile
+        &_visible
+          display: flex
+    &-top
+      &--mobile
+        &_fixed
+          position: fixed
+          top: 0
+          left: 4%
+          right: 4%
+          z-index: 10
     &-contacts
       display: none
+      position: fixed
+      left: 0
+      right: 0
+      bottom: 0
+      top: 81px
     &-menu
       display: none
+      position: fixed
+      left: 4%
+      right: 4%
+      bottom: 0
+      top: 81px
+      z-index: 9
+      &--visible
+        display: flex
+        flex-direction: column
       &__mobile
         display: flex
+      &__item
+        display: inline-flex
+        border-bottom: 1px solid
+        border-color: #000
     &-button
       &__mobile
         border: none
