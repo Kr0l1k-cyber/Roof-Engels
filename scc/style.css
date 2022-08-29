@@ -1122,11 +1122,6 @@ h2 {
   .navbar-menu__mobile {
     display: flex;
   }
-  .navbar-menu__item {
-    display: inline-flex;
-    border-bottom: 1px solid;
-    border-color: #000;
-  }
   .navbar-button__mobile {
     border: none;
     cursor: pointer;
